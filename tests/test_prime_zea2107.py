@@ -1,0 +1,1 @@
+from prime_zea2107 import prime_zea2107
