@@ -3,10 +3,11 @@ version: 2
 
 # Image to use
 build:
-  tools: 
-    python: "3.9"
   os: ubuntu-22.04
   image: testing
+  tools: 
+    python: "3.9"
+ 
 
 # Configuration
 python:
