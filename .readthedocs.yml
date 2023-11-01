@@ -3,6 +3,7 @@ version: 2
 
 # Image to use
 build:
+  os: ubuntu-22.04
   image: testing
 
 # Configuration
@@ -12,3 +13,6 @@ python:
     - requirements: docs/requirements.txt
     - method: pip
       path: .
+
+sphinx:
+  configuration: docs/conf.py
